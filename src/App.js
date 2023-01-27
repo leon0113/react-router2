@@ -2,7 +2,6 @@ import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import About from './components/About/About';
 import CustomLink from './components/CustomLink/CustomLink';
-import Friend from './components/Friend/Friend';
 import FriendDetails from './components/FriendDetails/FriendDetails';
 import Friends from './components/Friends/Friends';
 import Header from './components/Header/Header';
