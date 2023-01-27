@@ -8,3 +8,8 @@
     text-decoration: underline;
     color: rgb(42, 165, 114);
 }
+
+.pending{
+    text-decoration: dotted;
+    color: rgb(241, 228, 34);
+}
