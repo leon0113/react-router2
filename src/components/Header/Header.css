@@ -1,12 +1,12 @@
 .nav a{
-    text-decoration: none;
+     text-decoration: none; 
     margin-right: 10px;
     font-weight: 500;
 }
 
 .active{
     text-decoration: underline;
-    color: rgb(42, 165, 114);
+    color: rgb(22, 0, 221);
 }
 
 .pending{
