@@ -20,7 +20,6 @@ const FriendDetails = () => {
             <h3>Name : {friend.name}</h3>
             <h3 className='email'>Email : {friend.email}</h3>
             <h5>Website : {friend.website}</h5>
-            <p> <small>Address:Address</small> </p>
             <p><small>City : {friend.address?.city}</small></p>
         </div>
     );
