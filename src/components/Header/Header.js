@@ -49,6 +49,19 @@ const Header = () => {
                 </NavLink>
                 <NavLink
 
+                    to="/countries"
+                    className={({ isActive, isPending }) =>
+                        isActive
+                            ? "active"
+                            : isPending
+                                ? "pending"
+                                : ""
+                    }
+                >
+                    Countries
+                </NavLink>
+                <NavLink
+
                     to="/about"
                     className={({ isActive, isPending }) =>
                         isActive
